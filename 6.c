@@ -4,8 +4,8 @@
 int main()
 {
 int i;
-i=5;
-srand(i)
+i=rand()%5+1;
+printf("Wylosowałeś liczbe %d9 \n" , i);
 
 
 
