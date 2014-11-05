@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int liczby()
 { printf("Podaj liczbę całkowitą ");
   int l;
   scanf("%i",&l);
@@ -10,5 +10,8 @@ printf("Liczba >0 \n");
 else
 {printf("Liczba <0 \n");
 }
+}
+int main()
+{ liczby();
 return 0;
 }
