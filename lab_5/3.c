@@ -1,6 +1,4 @@
-/*Zadanie 3.Otworz program zmienne.c. Brakuje w nim definicji typow Cena i
-Pytanie. Nie zmieniaj nic, tylko dodaj same definicje tych typow tak,
-aby program kompilowal sie poprawnie.*/
+
 #include <stdio.h>
 
 int main()
