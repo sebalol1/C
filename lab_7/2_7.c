@@ -3,8 +3,19 @@ struct pracownik
 {
     char nazwisko[30];
     float pensja;
-    int data_urodzenia;
+    struct data dataurodzenia;
 };
+struct data
+{
+    short dzien;
+    short miesiac;
+    short rok;
+};
+struct nowadata(short dzien, short miesiac, short rok)
+{
+    struct datonowa=(dzien,miesiac, rok);
+}
+
 void wypisz(struct pracownik n)
 {printf("Nazwisko: %s, Pensja: %f, data urodzenia: %d\n", n.nazwisko, n.pensja, n.data_urodzenia);
  }
